@@ -1,0 +1,14 @@
+WEO_Country_Group_Code,Country_Group_Id,Country_Group_Name
+1,ALL,World
+110,ALL_Advanced_41,Advanced economies
+163,ALL_Advanced_Euro_20,Euro area
+119,ALL_Advanced_G7,Major advanced economies (G7)
+123,ALL_BRICS_20,Other advanced economies (Advanced economies excluding G7 and euro area)
+998,ALL_EUR_27,European Union
+510,ALL_ASEAN_5,ASEAN-5
+200,ALL_Developing_155,Emerging market and developing economies
+505,ALL_Developing_Asia_30,Emerging and developing Asia
+903,ALL_Developing_Europe_15,Emerging and developing Europe
+205,ALL_Developing_LatinA_Caribbean_33,Latin America and the Caribbean
+400,ALL_Developing_MEast_CAsia_32,Middle East and Central Asia
+603,ALL_Developing_SSAfrica_45,Sub-Saharan Africa
