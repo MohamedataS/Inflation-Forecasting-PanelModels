@@ -81,7 +81,6 @@ WEO_Country_Code,Country,WEO_Country_Group_Code,Country_Group_Id,Value
 429,Islamic Republic of Iran,110,all_advanced_41,0
 433,Iraq,110,all_advanced_41,0
 178,Ireland,110,all_advanced_41,1
-436,Israel,110,all_advanced_41,1
 136,Italy,110,all_advanced_41,1
 343,Jamaica,110,all_advanced_41,0
 158,Japan,110,all_advanced_41,1
@@ -277,7 +276,6 @@ WEO_Country_Code,Country,WEO_Country_Group_Code,Country_Group_Id,Value
 429,Islamic Republic of Iran,163,all_advanced_euro_20,0
 433,Iraq,163,all_advanced_euro_20,0
 178,Ireland,163,all_advanced_euro_20,1
-436,Israel,163,all_advanced_euro_20,0
 136,Italy,163,all_advanced_euro_20,1
 343,Jamaica,163,all_advanced_euro_20,0
 158,Japan,163,all_advanced_euro_20,0
@@ -473,7 +471,6 @@ WEO_Country_Code,Country,WEO_Country_Group_Code,Country_Group_Id,Value
 429,Islamic Republic of Iran,119,all_advanced_g7,0
 433,Iraq,119,all_advanced_g7,0
 178,Ireland,119,all_advanced_g7,0
-436,Israel,119,all_advanced_g7,0
 136,Italy,119,all_advanced_g7,1
 343,Jamaica,119,all_advanced_g7,0
 158,Japan,119,all_advanced_g7,1
@@ -669,7 +666,6 @@ WEO_Country_Code,Country,WEO_Country_Group_Code,Country_Group_Id,Value
 429,Islamic Republic of Iran,200,all_developing_155,1
 433,Iraq,200,all_developing_155,1
 178,Ireland,200,all_developing_155,0
-436,Israel,200,all_developing_155,0
 136,Italy,200,all_developing_155,0
 343,Jamaica,200,all_developing_155,1
 158,Japan,200,all_developing_155,0
@@ -865,7 +861,6 @@ WEO_Country_Code,Country,WEO_Country_Group_Code,Country_Group_Id,Value
 429,Islamic Republic of Iran,505,all_developing_asia_30,0
 433,Iraq,505,all_developing_asia_30,0
 178,Ireland,505,all_developing_asia_30,0
-436,Israel,505,all_developing_asia_30,0
 136,Italy,505,all_developing_asia_30,0
 343,Jamaica,505,all_developing_asia_30,0
 158,Japan,505,all_developing_asia_30,0
@@ -1061,7 +1056,6 @@ WEO_Country_Code,Country,WEO_Country_Group_Code,Country_Group_Id,Value
 429,Islamic Republic of Iran,903,all_developing_europe_15,0
 433,Iraq,903,all_developing_europe_15,0
 178,Ireland,903,all_developing_europe_15,0
-436,Israel,903,all_developing_europe_15,0
 136,Italy,903,all_developing_europe_15,0
 343,Jamaica,903,all_developing_europe_15,0
 158,Japan,903,all_developing_europe_15,0
@@ -1257,7 +1251,6 @@ WEO_Country_Code,Country,WEO_Country_Group_Code,Country_Group_Id,Value
 429,Islamic Republic of Iran,205,all_developing_latina_caribbean_33,0
 433,Iraq,205,all_developing_latina_caribbean_33,0
 178,Ireland,205,all_developing_latina_caribbean_33,0
-436,Israel,205,all_developing_latina_caribbean_33,0
 136,Italy,205,all_developing_latina_caribbean_33,0
 343,Jamaica,205,all_developing_latina_caribbean_33,1
 158,Japan,205,all_developing_latina_caribbean_33,0
@@ -1453,7 +1446,6 @@ WEO_Country_Code,Country,WEO_Country_Group_Code,Country_Group_Id,Value
 429,Islamic Republic of Iran,400,all_developing_meast_casia_32,1
 433,Iraq,400,all_developing_meast_casia_32,1
 178,Ireland,400,all_developing_meast_casia_32,0
-436,Israel,400,all_developing_meast_casia_32,0
 136,Italy,400,all_developing_meast_casia_32,0
 343,Jamaica,400,all_developing_meast_casia_32,0
 158,Japan,400,all_developing_meast_casia_32,0
@@ -1649,7 +1641,6 @@ WEO_Country_Code,Country,WEO_Country_Group_Code,Country_Group_Id,Value
 429,Islamic Republic of Iran,603,all_developing_ssafrica_45,0
 433,Iraq,603,all_developing_ssafrica_45,0
 178,Ireland,603,all_developing_ssafrica_45,0
-436,Israel,603,all_developing_ssafrica_45,0
 136,Italy,603,all_developing_ssafrica_45,0
 343,Jamaica,603,all_developing_ssafrica_45,0
 158,Japan,603,all_developing_ssafrica_45,0
@@ -1845,7 +1836,6 @@ WEO_Country_Code,Country,WEO_Country_Group_Code,Country_Group_Id,Value
 429,Islamic Republic of Iran,510,all_asean_5,0
 433,Iraq,510,all_asean_5,0
 178,Ireland,510,all_asean_5,0
-436,Israel,510,all_asean_5,0
 136,Italy,510,all_asean_5,0
 343,Jamaica,510,all_asean_5,0
 158,Japan,510,all_asean_5,0
@@ -2041,7 +2031,6 @@ WEO_Country_Code,Country,WEO_Country_Group_Code,Country_Group_Id,Value
 429,Islamic Republic of Iran,123,all_brics_20,0
 433,Iraq,123,all_brics_20,0
 178,Ireland,123,all_brics_20,0
-436,Israel,123,all_brics_20,0
 136,Italy,123,all_brics_20,0
 343,Jamaica,123,all_brics_20,0
 158,Japan,123,all_brics_20,0
@@ -2237,7 +2226,6 @@ WEO_Country_Code,Country,WEO_Country_Group_Code,Country_Group_Id,Value
 429,Islamic Republic of Iran,998,all_eur_27,0
 433,Iraq,998,all_eur_27,0
 178,Ireland,998,all_eur_27,1
-436,Israel,998,all_eur_27,0
 136,Italy,998,all_eur_27,1
 343,Jamaica,998,all_eur_27,0
 158,Japan,998,all_eur_27,0
