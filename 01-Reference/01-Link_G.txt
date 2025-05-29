@@ -1,0 +1,23 @@
+Introduction to Econometrics with R: https://www.econometrics-with-r.org/
+Prelude to Econometrics Using R: https://bookdown.org/mattdobra/Prelude/
+
+
+Causal Inference for The Brave and True: https://matheusfacure.github.io/python-causality-handbook/landing-page.html
+The Effect: An Introduction to Research Design and Causality: https://theeffectbook.net/index.html
+Causal Inference: https://mixtape.scunning.com/
+
+
+Statistics and Data Analysis Guides: https://libguides.princeton.edu/data-guides
+Getting Started in Data Analysis: Stata, R, SPSS, Excel: Home: https://libguides.princeton.edu/dss
+Statistics and Data Analysis Guides: Home: https://libguides.princeton.edu/c.php?g=1415215
+
+
+
+
+
+
+
+
+
+
+
