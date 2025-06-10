@@ -1,0 +1,7 @@
+
+Panel Data R: https://libguides.princeton.edu/R-Panel
+Regression Model with Panel Data: https://algoritmaonline.com/regression-with-panel-data/
+
+Introduction to Econometrics with R: https://www.econometrics-with-r.org/
+Prelude to Econometrics Using R: https://bookdown.org/mattdobra/Prelude/
+Causal Inference: https://mixtape.scunning.com/08-panel_data

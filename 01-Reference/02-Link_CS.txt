@@ -1,0 +1,4 @@
+Multivariate Statistics: https://rich-d-wilkinson.github.io/MATH3030/index.html
+Learning Statistics with Python: https://ethanweed.github.io/pythonbook/landingpage.html
+Statistics with R - Practical Sessions: https://bookdown.org/mrenna/statbook/
+Statistics 1 and 2: https://cjvanlissa.github.io/stats12/
