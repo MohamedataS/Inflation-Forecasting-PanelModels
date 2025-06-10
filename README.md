@@ -1,1 +1,2 @@
-# Panal_Data_Inflation
+# **Panel Data Methodologies**
+# **Applications in Macroeconometrics *(Inflation Forecasting)**
