@@ -33,13 +33,16 @@
 
 **Panel data (longitudinal or cross-sectional time-series data):**
     that combines temporal depth with cross-sectional breadth, offering a powerful framework that enhances the precision and richness of econometric inference (Hsiao, 2003).
+
 **The evolution of panel methodologies began in the mid-20th century when researchers recognized the limitations of using only cross-sectional or time-series data:**
-Verbeek & Nijman (1992) and Moulton (1990) introduce fixed/random-effects and temporal-dependency models.
-Arellano & Bond (1991) develop dynamic GMM estimators to address endogeneity.
-Panel data methods offer several crucial advantages over purely cross-sectional or time-series analyses:
-Controls unobservables: Fixed/Random Effects capture time-invariant factors (e.g., institutions, culture) (Baltagi, 2008). For example, Fischer (1993) showed how inflation behaves differently under various policy regimes (inflation inertia).
-Improved efficiency: Pooling over time increases sample size, reducing variance inflation (Wooldridge, 2010).
-Captures dynamics: Lagged variables model persistence in macro indicators (Arellano & Bond, 1991).
+- Verbeek & Nijman (1992) and Moulton (1990) introduce fixed/random-effects and temporal-dependency models.
+- Arellano & Bond (1991) develop dynamic GMM estimators to address endogeneity.
+
+**Panel data methods offer several crucial advantages over purely cross-sectional or time-series analyses:**
+- Controls unobservables: Fixed/Random Effects capture time-invariant factors (e.g., institutions, culture) (Baltagi, 2008). For example, Fischer (1993) showed how inflation behaves differently under various policy regimes (inflation inertia).
+- Improved efficiency: Pooling over time increases sample size, reducing variance inflation (Wooldridge, 2010).
+- Captures dynamics: Lagged variables model persistence in macro indicators (Arellano & Bond, 1991).
+
 ---
 
 # **2. Study Objectives**
