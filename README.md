@@ -14,15 +14,16 @@
 2. Study Objectives
 3. Dataset Overview
 4. Preprocessing
-   4.1 Missing Values (MICE-BR)
-   4.2 Correlation And (VIF)
+-   4.1 Missing Values (MICE-BR)
+-   4.2 Correlation And (VIF)
 
 5. Panel Data Model Comparison
-   5.1 (POLS), (FE), and(RE)
-   5.2 (POLS) vs (FE) vs (RE)
-   5.3 Diagnostic Testing (Assessment)
-   5.4 Difference GMM (Arellano-bond)
- 5.6. Conclusion
+-   5.1 (POLS), (FE), and(RE)
+-   5.2 (POLS) vs (FE) vs (RE)
+-   5.3 Diagnostic Testing (Assessment)
+-   5.4 Difference GMM (Arellano-bond)
+-   5.6. Conclusion
+
 6. Recommendations & Future Work
 7. Appendix & References
 
@@ -106,10 +107,14 @@ df_interpolated = df_panel_b.groupby('Country', group_keys=False).apply(handle_m
 
 # **5. Panel Data Models**
 
-- `Pooled OLS:` Ignores both country-specific and time-specific heterogeneity.
-- `Fixed Effects (FE):` Assumes country effects are time-invariant, country-specific characteristics (intercept for each country).
-- `Random Effects (RE):` Assumes country effects are randomly distributed (treated as random parameters).
-Two-Step Difference GMM (Arellano–Bond):
+`Pooled OLS:` Ignores both country-specific and time-specific heterogeneity.
+
+`Fixed Effects (FE):` Assumes country effects are time-invariant, country-specific characteristics (intercept for each country).
+
+`Random Effects (RE):` Assumes country effects are randomly distributed (treated as random parameters).
+
+**Two-Step Difference GMM (Arellano–Bond):**
+
 - Addresses endogeneity using internal instruments (e.g., past values).
 - Adds lagged dependent variables to model persistence over time.
 - Suitable for panels with many countries (N) and a few years (T) (N≫T).
