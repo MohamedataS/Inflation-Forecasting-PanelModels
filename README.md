@@ -56,8 +56,9 @@
 
 # **3. Dataset Overview**
 
-- The dataset includes annual data for 77 countries from 1980 to 2024, sourced from the IMF’s World Economic Outlook (WEO).
-- The target variable is PCPIPCH (Inflation, average consumer prices).
+The dataset includes annual data for 77 countries from 1980 to 2024, sourced from the IMF’s World Economic Outlook (WEO).
+
+The target variable is PCPIPCH (Inflation, average consumer prices).
 
 **Explanatory variables used are:**
 `Public Finance:`
