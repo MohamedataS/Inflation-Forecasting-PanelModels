@@ -47,19 +47,17 @@
 
 # **2. Study Objectives**
 
-**Compare Panel:**
-    Evaluate Pooled OLS, Fixed Effects, Random Effects, and Dynamic GMM models—assessing their performance via diagnostic tests (e.g., Hausman, AR(2), Sargan).
-**Empirical Application:** 
-    Use a balanced panel (1980–2024) of annual macroeconomic indicators for 77 countries—both developed and developing—to analyze and forecast inflation dynamics.
-**Recommendations:**
-    Formulate clear recommendations for selecting the most appropriate panel data technique based on data characteristics and diagnostic outcomes.
+- **Compare Panel:** Evaluate Pooled OLS, Fixed Effects, Random Effects, and Dynamic GMM models—assessing their performance via diagnostic tests (e.g., Hausman, AR(2), Sargan).
+- **Empirical Application:** Use a balanced panel (1980–2024) of annual macroeconomic indicators for 77 countries—both developed and developing—to analyze and forecast inflation dynamics.
+- **Recommendations:** Formulate clear recommendations for selecting the most appropriate panel data technique based on data characteristics and diagnostic outcomes.
 
 ---
 
 # **3. Dataset Overview**
 
-The dataset includes annual data for 77 countries from 1980 to 2024, sourced from the IMF’s World Economic Outlook (WEO).
-The target variable is PCPIPCH (Inflation, average consumer prices). 
+- The dataset includes annual data for 77 countries from 1980 to 2024, sourced from the IMF’s World Economic Outlook (WEO).
+- The target variable is PCPIPCH (Inflation, average consumer prices).
+
 **Explanatory variables used are:**
 `Public Finance:`
 - `GGSB_NPGDP`: General government structural balance (% of GDP).
@@ -77,10 +75,12 @@ The target variable is PCPIPCH (Inflation, average consumer prices).
 
 ## **4.1 Missing Values (MICE-BR)**
 
-**Iterative Imputation with Bayesian Ridge (MICE-BR)**
-Treats each missing variable as a regression on the other observed variables within a Bayesian framework.
-Applied separately for each country to preserve country-specific heterogeneity.
-Imputes missing values without discarding the rich relationships among variables.
+**Iterative Imputation with Bayesian Ridge (MICE-BR):**
+
+- Treats each missing variable as a regression on the other observed variables within a Bayesian framework.
+- Applied separately for each country to preserve country-specific heterogeneity.
+- Imputes missing values without discarding the rich relationships among variables.
+
 `**Python Code:**`
 ```python
 # Handle missing values for each country 
@@ -136,7 +136,9 @@ The model is statistically significant overall (χ² = 3,262.87, p < 0.001), ind
 - `𝑯_𝟏`: At least one individual effect is non-zero → Fixed Effects model is preferred.
 
 **Results:** F-statistic = 9.48 (p-value = 0.0021).
+
 **Decision:** Since the p-value < 0.05, we reject the null hypothesis.
+
 **Conclusion:** The test confirms that individual (country-specific) effects are statistically significant, and therefore, the Fixed Effects model is preferred over Pooled OLS. 
 
 ## **5.2.B. Hausman Test: Fixed Effects vs Random Effects**
@@ -145,8 +147,11 @@ The model is statistically significant overall (χ² = 3,262.87, p < 0.001), ind
 - `𝑯_𝟏`: Random Effects model is inconsistent
 
 **Results:** Chi-squared = 2.58 (p-value = 0.8597)
+
 **Decision:** Since the p-value > 0.05, we fail to reject the null hypothesis.
+
 **Conclusion:** There is no statistical evidence of correlation between the country-specific effects and the regressors, implying that the Random Effects model is consistent and preferred over the Fixed Effects model in this case.
+
  `(A sample of countries and a long period of time)`
 
 ---
@@ -158,8 +163,11 @@ The model is statistically significant overall (χ² = 3,262.87, p < 0.001), ind
 **A) No heteroskedasticity (Breusch–Pagan and White Test):**
 - `𝑯_𝟎`: Homoskedasticity (constant variance). 
 - `𝑯_𝟏`: Presence of heteroskedasticity.
+
 **Breusch–Pagan Test:** Statistic = 13.62 (p-value = 0.0182)
+
 **White Test:** Statistic = 18.01 (p-value = 0.0062)
+
 **Decision:** Since both p-values are below 0.05, we reject the null hypothesis of homoskedasticity.
 
 **B) No autocorrelation (Breusch–Godfrey Test):**
@@ -167,6 +175,7 @@ The model is statistically significant overall (χ² = 3,262.87, p < 0.001), ind
 - `𝑯_𝟏`: Serial correlation exists.
 
 **Results:** Chi-squared = 751.38, p-value < 2.2e-16
+
 **Decision:** With a p-value near zero, we reject the null hypothesis of no serial correlation in the residuals.
 
 ---
@@ -179,6 +188,7 @@ The model is statistically significant overall (χ² = 3,262.87, p < 0.001), ind
 - `𝑯_𝟏`: Cross-sectional dependence.
 
 **Results:** z-statistic = 22.65 (p-value < 2.2e-16)
+
 **Decision:** Reject the null hypothesis significant cross-sectional dependence exists.
 
 **D) Levin, Lin, and Chu (LLC) Panel Unit Root (Stationarity) Test:**
@@ -186,6 +196,7 @@ The model is statistically significant overall (χ² = 3,262.87, p < 0.001), ind
 - `𝑯_𝟏`: Stationarity.
 
 **Results:** Overall statistic = -20.16 (p-value < 2.2e-16)
+
 **Decision:** Reject the null hypothesis the variable is stationary (PCPIPCH rate series is stationary).
 
 - We must use robust standard errors because :(Heteroskedasticity, Serial correlation, and Cross-sectional dependence).
@@ -199,7 +210,9 @@ Correcting Standard Errors: Driscoll–Kraay Robust Estimation
 ---
 
 ## **5.4. Two-Step Difference GMM (Arellano-bond)**
+
 **Two-Step Difference GMM (Arellano–Bond):**
+
 **Accounts for :**
 - Endogeneity  (lagged inflation).
 - Autocorrelation (by differencing and higher-order serial correlation)
@@ -224,6 +237,7 @@ Correcting Standard Errors: Driscoll–Kraay Robust Estimation
 - `𝑯_𝟏`: At least one coefficient is non-zero.
 
 **Results:** χ² (7) = 660.07 (p-value < 0.001)
+
 **Decision:** Reject the null hypothesis, the explanatory variables are jointly significant.
 
 **B) Overidentifying Restrictions (Sargan Test ):**
@@ -232,6 +246,7 @@ Correcting Standard Errors: Driscoll–Kraay Robust Estimation
 - `𝑯_𝟏`: At least one instrument is invalid.
 
 **Results:** χ² = 11.86 (p-value = 0.457)
+
 **Decision:** Fail to reject the null hypothesis, Instruments are valid.
 
 **C) Arellano–Bond Test for First/ Second -Order Autocorrelation:**
@@ -240,6 +255,7 @@ Correcting Standard Errors: Driscoll–Kraay Robust Estimation
 - `𝑯_𝟏`: Serial correlation exists.
 
 **Results:** [AR (1)]: z = −0.99(p-value = 0.3199) & [AR (2)]: z = −0.58 (p-value = 0.5607)
+
 **Decision:** Fail to reject null hypothesis , No serial correlation in the residuals. [AR (1)&(2)]
 
 ---
@@ -249,6 +265,7 @@ Correcting Standard Errors: Driscoll–Kraay Robust Estimation
 **Model Comparison and Final Selection**
 
 **After estimating and evaluating four model specifications—Pooled OLS, Fixed Effects, Random Effects, and Two-Step Difference GMM—we summarize the findings:**
+
 - Pooled OLS failed to account for country heterogeneity and produced biased estimates.
 - Fixed Effects controlled unobserved heterogeneity but was inconsistent under endogeneity.
 - Random Effects passed the Hausman test and provided a consistent structure but ignored dynamics and endogeneity.
@@ -259,6 +276,7 @@ Correcting Standard Errors: Driscoll–Kraay Robust Estimation
 # **6. Recommendations and Future Work**
 
 Based on the findings, it is recommended that applied macroeconomic research and policy forecasting in inflation contexts prioritize dynamic panel estimators—particularly Two-Step Difference GMM—when dealing with persistent variables and potential endogeneity. 
+
 **Future Work:**
 -	Expansion of Dataset Coverage.
 -	Inclusion of Energy Price Indices.
