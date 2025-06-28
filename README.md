@@ -83,6 +83,9 @@ The target variable is PCPIPCH (Inflation, average consumer prices).
 - Applied separately for each country to preserve country-specific heterogeneity.
 - Imputes missing values without discarding the rich relationships among variables.
 
+![Dashboard (Egypt) Before](/07-Report/Dash_EG_N.png)
+![Dashboard (US) Before](/07-Report/Dash_US_N.png)
+
 `**Python Code:**`
 ```python
 # Handle missing values for each country 
@@ -93,6 +96,10 @@ def handle_missing_country(country):
 # Apply the imputation process by country
 df_interpolated = df_panel_b.groupby('Country', group_keys=False).apply(handle_missing_country)
 ```
+
+![Dashboard (Egypt) After](/07-Report/Dash_EG.png)
+![Dashboard (US) After](/07-Report/Dash_US.png)
+
 
 ---
 
