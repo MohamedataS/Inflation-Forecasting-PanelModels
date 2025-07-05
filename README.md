@@ -1,5 +1,5 @@
-# **Panel Data Models**
-# **Applications in Macroeconometrics `(Inflation Forecasting)`**
+# Inflation Forecasting (Panel Models)
+## **Panel Data Models: Applications in Macroeconometrics `(Inflation Forecasting)`**
 
 
 ---
