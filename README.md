@@ -1,7 +1,8 @@
 # Inflation Forecasting (Panel Models)
 ## **Panel Data Models: Applications in Macroeconometrics `(Inflation Forecasting)`**
 
-> ### **APP (Global Inflation Forecaster (LLM)):** [`InfluxAI`](https://partyrock.aws/u/MSAI/15wfsN8BL/InfluxAI%3A-Global-Inflation-Forecaster)
+> ### **APP ( `Global Inflation Forecast and Analysis AI (LLM)):** [`InfluxAI`](https://partyrock.aws/u/MSAI/V4DmvoSLo/InfluxAI%3A-Global-Inflation-Forecast-and-Analysis-AI)
+
 
 ---
 
