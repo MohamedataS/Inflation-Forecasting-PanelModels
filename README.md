@@ -1,9 +1,10 @@
 # Inflation Forecasting (Panel Models)
 ## **Panel Data Models: Applications in Macroeconometrics `(Inflation Forecasting)`**
 
-> ### **APP (Global Inflation Forecaster (LLM)):** [`InfluxAI`]([https://www.linkedin.com/in/amal-mohamed-abdelfattah-phd-3a6bb6a4/](https://partyrock.aws/u/MSAI/15wfsN8BL/InfluxAI%3A-Global-Inflation-Forecaster))
+> ### **APP (Global Inflation Forecaster (LLM)):** [`InfluxAI`](https://partyrock.aws/u/MSAI/15wfsN8BL/InfluxAI%3A-Global-Inflation-Forecaster)
 
 ---
+
 - **Submitted By:** [`Mohamed Abd Al-mgyd`](https://www.linkedin.com/in/mohamed-abd-al-mgyd-9886151b2/)
 - **Supervised By:** [`Dr. Amal Abd-Elfatah`](https://www.linkedin.com/in/amal-mohamed-abdelfattah-phd-3a6bb6a4/)
   
