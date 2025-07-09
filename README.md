@@ -6,7 +6,7 @@
 
 ---
 
-- **Submitted By:** [`Mohamed Abd Al-mgyd`](https://www.linkedin.com/in/mohamed-abd-al-mgyd-9886151b2/)
+- **Submitted By:** [`Mohamed Abd-Almgyd`](https://www.linkedin.com/in/mohamed-abd-almgyd-9886151b2/)
 - **Supervised By:** [`Dr. Amal Abd-Elfatah`](https://www.linkedin.com/in/amal-mohamed-abdelfattah-phd-3a6bb6a4/)
   
 ---
