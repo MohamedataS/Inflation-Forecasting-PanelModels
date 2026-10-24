@@ -326,5 +326,6 @@ Based on the findings, it is recommended that applied macroeconomic research and
 
 ---
 
+## 📚 Certificate of Completion of the Pre-Master’s.
 ![Pre-Master](01-Reference/07.01-Pre-Master.jpg)
 
