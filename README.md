@@ -323,3 +323,8 @@ Based on the findings, it is recommended that applied macroeconomic research and
 - Baltagi, B. H. (2008). Econometric Analysis of Panel Data (4th ed.). John Wiley & Sons.
 - Fischer, S. (1993). “The role of macroeconomic factors in growth.” Journal of Monetary Economics, 32(3), 485–512.
 - Wooldridge, J. M. (2010). Econometric Analysis of Cross Section and Panel Data (2nd ed.). MIT Press.
+
+---
+
+![Pre-Master](01-Reference/07.01-Pre-Master.jpg)
+
